@@ -6,5 +6,6 @@ django-rest-knox==4.1.0
 djangorestframework==3.12.2
 pycparser==2.20
 pytz==2020.5
-six==1.15.0
+six==1.16.0
 sqlparse==0.4.1
+channels~=3.0.3

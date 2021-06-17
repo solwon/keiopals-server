@@ -19,5 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("rest_main.urls")),
+    path("chat/", include("socket_main.urls")),
     path("api/auth", include("knox.urls")),
 ]
